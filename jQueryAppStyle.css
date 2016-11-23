@@ -1,0 +1,79 @@
+#sketchContainer {
+  	position: relative;
+  	display: block;
+  	margin: auto;
+  	padding-bottom: 20px;
+}
+
+.box {
+	position: relative;
+	display: inline-block;
+  	background-color: black;
+  	padding: 0 0 0 0;
+  	opacity: 0.1;
+}
+
+.res {
+  	position: relative;
+  	display: inline-block;
+}
+
+.size {
+  	position: relative;
+  	display: block;
+  	margin: auto;
+}
+
+#XYRes {
+  	position: relative;
+  	display: block;
+  	margin: auto;
+  	width: 250px;
+}
+
+input[type=text] {
+	margin-top: 10px;
+	width: 100px;
+	height: 36px;
+	padding: 0 9px 2px 9px;
+	border: 1px solid #d5d5d5;
+	font-size: 16px;
+}
+
+input[type=text]:hover{
+	border: 1px solid #a5a5a5;
+}
+
+input[type=text]:focus {
+	border: 1px solid #5090f0;
+	outline: none;
+}
+
+button {
+  	position: relative;
+  	display: block;
+  	margin: auto;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+	height: 35px;
+  	width: 200px;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #808080;
+	border: none;
+	background-color: #eeeeee;
+}
+
+button:hover {
+	border: 1px solid #d5d5d5;
+	border-radius: 1px;
+	color: #000000;
+}
+
+button:focus {
+	border: 1px solid #5090f0;
+	border-radius: 1px;
+	outline: none;
+	color: #000000;
+}
